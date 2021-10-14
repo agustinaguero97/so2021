@@ -1,0 +1,90 @@
+
+hora y ejecucion del script: mié 13 oct 2021 23:54:22 -03
+_________________________________________________________
+autor: agustin
+_________________________________________________________
+capacidad utilizada de discos rigidos:
+Filesystem      Size  Used Avail Use% Mounted on
+udev            3,8G     0  3,8G   0% /dev
+tmpfs           783M  2,1M  781M   1% /run
+/dev/sdb6        34G   29G  3,8G  89% /
+tmpfs           3,9G  223M  3,7G   6% /dev/shm
+tmpfs           5,0M  4,0K  5,0M   1% /run/lock
+tmpfs           3,9G     0  3,9G   0% /sys/fs/cgroup
+/dev/loop0      128K  128K     0 100% /snap/bare/5
+/dev/loop1      209M  209M     0 100% /snap/code/75
+/dev/loop2      100M  100M     0 100% /snap/core/11606
+/dev/loop5       56M   56M     0 100% /snap/core18/2128
+/dev/loop4      100M  100M     0 100% /snap/core/11743
+/dev/loop6       56M   56M     0 100% /snap/core18/2074
+/dev/loop10     165M  165M     0 100% /snap/gnome-3-28-1804/161
+/dev/loop12     9,5M  9,5M     0 100% /snap/htop/3161
+/dev/loop13     896K  896K     0 100% /snap/zerotier-one/92
+/dev/loop11     163M  163M     0 100% /snap/gnome-3-28-1804/145
+/dev/loop15     9,4M  9,4M     0 100% /snap/htop/2802
+/dev/loop16     219M  219M     0 100% /snap/gnome-3-34-1804/66
+/dev/loop18      51M   51M     0 100% /snap/sublime-text/106
+/dev/loop19      11M   11M     0 100% /snap/kubectl/2095
+/dev/loop20      62M   62M     0 100% /snap/core20/1081
+/dev/loop21      33M   33M     0 100% /snap/snapd/13170
+/dev/loop23     896K  896K     0 100% /snap/zerotier/125
+/dev/loop22      78M   78M     0 100% /snap/discord/128
+/dev/loop24      65M   65M     0 100% /snap/sublime-text/109
+/dev/loop25      11M   11M     0 100% /snap/kubectl/2103
+/dev/loop26      51M   51M     0 100% /snap/snap-store/542
+/dev/loop27     219M  219M     0 100% /snap/gnome-3-34-1804/72
+/dev/loop28     128M  128M     0 100% /snap/slack/46
+/dev/loop29      66M   66M     0 100% /snap/gtk-common-themes/1519
+/dev/loop30      66M   66M     0 100% /snap/gtk-common-themes/1515
+/dev/loop31      51M   51M     0 100% /snap/snap-store/547
+/dev/loop32      89M   89M     0 100% /snap/insomnia/151
+/dev/loop34     535M  535M     0 100% /snap/pycharm-professional/254
+/dev/loop35     127M  127M     0 100% /snap/slack/44
+/dev/loop36     169M  169M     0 100% /snap/postman/147
+/dev/loop37      83M   83M     0 100% /snap/discord/130
+/dev/loop38     535M  535M     0 100% /snap/pycharm-professional/256
+/dev/loop39      89M   89M     0 100% /snap/insomnia/153
+tmpfs           783M  9,1M  774M   2% /run/user/1000
+/dev/loop40     896K  896K     0 100% /snap/zerotier/138
+/dev/loop14     169M  169M     0 100% /snap/postman/148
+/dev/loop33     258M  258M     0 100% /snap/dbeaver-ce/144
+/dev/sda2       932G  144G  789G  16% /media/agustin/1TB
+/dev/loop8      217M  217M     0 100% /snap/code/76
+/dev/loop3       62M   62M     0 100% /snap/core20/1169
+/dev/loop7       33M   33M     0 100% /snap/snapd/13270
+/dev/loop17     249M  249M     0 100% /snap/dbeaver-ce/147
+_________________________________________________________
+cantidad de procesadores del servidor: 4 
+_________________________________________________________
+lista de procesos del servidor:
+    PID TTY          TIME CMD
+ 198022 pts/2    00:00:00 bash
+ 206120 pts/2    00:00:00 script_index.sh
+ 206128 pts/2    00:00:00 ps
+_________________________________________________________
+existe el archivo saludo.txt en esta carpeta
+
+actualizar_registros.py
+eliminar_registros.py
+index.html
+insertar_registros.py
+output.txt
+pruebabd.py
+saludo.txt
+script_index.sh
+traer_datos_segun_id.py
+transacciones.py 
+el contenido de saludo.txt es: hola!
+
+eliminando saludo.txt:  
+actualizar_registros.py
+eliminar_registros.py
+index.html
+insertar_registros.py
+output.txt
+pruebabd.py
+script_index.sh
+traer_datos_segun_id.py
+transacciones.py
+_________________________________________________________
+solo estoy yo: agustin  tty2         2021-10-05 18:03 (tty2)

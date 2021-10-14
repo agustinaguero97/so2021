@@ -1,0 +1,20 @@
+<! –– este index.html solo sirve para mostrar de manera correcta el contenido de output.txt ––>
+</head>
+<title>Parcial de S.O.</title>
+<body>
+<a href="output.txt">Parcial de S.O.</a><br>
+    <div id="text" ></div>
+    <script>
+        setInterval(()=>{
+               let t=new XMLHttpRequest()
+               t.open('GET',location.origin+'output.txt')
+               t.onreadystatechange=(ev)=>{
+                   if(ev.readyState==4){    
+                       document.getELementById('text').textContent=t.responseText;
+                      }
+                };
+                t.send()
+         },1000);
+    </script>
+</body>
+</html>

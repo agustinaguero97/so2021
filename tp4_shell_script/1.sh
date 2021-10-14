@@ -1,0 +1,2 @@
+#!/bin/activate
+#script: crear un demonio que revise la existencia de un archivo llamado "demonio.txt" y escriba un log llamado "alerta.log" donde se indique si existe o no y la fecha y hora de revision
