@@ -1,14 +1,14 @@
 
-hora y ejecucion del script: mié 13 oct 2021 23:54:22 -03
+hora y ejecucion del script: jue 14 oct 2021 20:04:05 -03
 _________________________________________________________
-autor: agustin
+auar: agustin
 _________________________________________________________
 capacidad utilizada de discos rigidos:
 Filesystem      Size  Used Avail Use% Mounted on
 udev            3,8G     0  3,8G   0% /dev
 tmpfs           783M  2,1M  781M   1% /run
-/dev/sdb6        34G   29G  3,8G  89% /
-tmpfs           3,9G  223M  3,7G   6% /dev/shm
+/dev/sdb6        34G   28G  4,1G  88% /
+tmpfs           3,9G  158M  3,7G   5% /dev/shm
 tmpfs           5,0M  4,0K  5,0M   1% /run/lock
 tmpfs           3,9G     0  3,9G   0% /sys/fs/cgroup
 /dev/loop0      128K  128K     0 100% /snap/bare/5
@@ -44,7 +44,7 @@ tmpfs           3,9G     0  3,9G   0% /sys/fs/cgroup
 /dev/loop37      83M   83M     0 100% /snap/discord/130
 /dev/loop38     535M  535M     0 100% /snap/pycharm-professional/256
 /dev/loop39      89M   89M     0 100% /snap/insomnia/153
-tmpfs           783M  9,1M  774M   2% /run/user/1000
+tmpfs           783M  9,2M  774M   2% /run/user/1000
 /dev/loop40     896K  896K     0 100% /snap/zerotier/138
 /dev/loop14     169M  169M     0 100% /snap/postman/148
 /dev/loop33     258M  258M     0 100% /snap/dbeaver-ce/144
@@ -58,33 +58,23 @@ cantidad de procesadores del servidor: 4
 _________________________________________________________
 lista de procesos del servidor:
     PID TTY          TIME CMD
- 198022 pts/2    00:00:00 bash
- 206120 pts/2    00:00:00 script_index.sh
- 206128 pts/2    00:00:00 ps
+ 220591 pts/1    00:00:00 bash
+ 220625 pts/1    00:00:00 script_index.sh
+ 220633 pts/1    00:00:00 ps
 _________________________________________________________
 existe el archivo saludo.txt en esta carpeta
 
-actualizar_registros.py
-eliminar_registros.py
 index.html
-insertar_registros.py
 output.txt
-pruebabd.py
+prueba.sh
 saludo.txt
-script_index.sh
-traer_datos_segun_id.py
-transacciones.py 
+script_index.sh 
 el contenido de saludo.txt es: hola!
 
 eliminando saludo.txt:  
-actualizar_registros.py
-eliminar_registros.py
 index.html
-insertar_registros.py
 output.txt
-pruebabd.py
+prueba.sh
 script_index.sh
-traer_datos_segun_id.py
-transacciones.py
 _________________________________________________________
-solo estoy yo: agustin  tty2         2021-10-05 18:03 (tty2)
+solo esay yo: agustin  tty2         2021-10-05 18:03 (tty2)

@@ -1,12 +1,12 @@
 #!/bin/bash
 #hay que darle a la carpeta a.agueero chmod 755
 clear
-auch saludo.txt
+touch saludo.txt
 echo "hola!" >> saludo.txt
 echo "" > output.txt
 echo "hora y ejecucion del script: `date`" >>  output.txt
 echo "_________________________________________________________" >> output.txt
-echo "auar: `whoami`"  >> output.txt
+echo "autor: `whoami | id`"  >> output.txt
 echo "_________________________________________________________" >> output.txt
 echo "capacidad utilizada de discos rigidos:" >> output.txt
 echo "`df -h`" >> output.txt
@@ -52,13 +52,13 @@ do
             echo "escogiste 2"
             echo "copiando index.html a /home/mz/so2021/<a.agueero>/ `cp index.html /home/mz/so2021/a.agueero/`" >> output.txt
             echo "copiando script_index.sh a /home/mz/so2021/<a.agueero>/ `cp script_index.sh /home/mz/so2021/a.agueero/`" >> output.txt
-            echo "copiando output.txt a /home/mz/so2021/<a.agueero>/ `cp output.txt /home/mz/so2021/a.agueero/`"
+            echo "copiando output.txt a /home/mz/so2021/<a.agueero>/ `cp output.txt /home/mz/so2021/a.agueero/`" >> output.txt
             ;;
         "Opcion 3:/home/mz/so2021/compartido/")
             echo "escogiste 3"
             echo "copiando index.html a /home/mz/so2021/compartido/ `cp index.html /home/mz/so2021/compartido/`" >> output.txt
             echo "copiando script_index.sh a /home/mz/so2021/compartido/ `cp script_index.sh /home/mz/so2021/compartido/`" >> output.txt
-            echo "copiando output.txt a /home/mz/so2021/compartido/ `cp output.txt /home/mz/so2021/compartido/`"
+            echo "copiando output.txt a /home/mz/so2021/compartido/ `cp output.txt /home/mz/so2021/compartido/`" >> output.txt
             ;;
         "Ninguno")
             break
