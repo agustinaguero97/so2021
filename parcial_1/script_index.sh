@@ -14,7 +14,7 @@ echo "_________________________________________________________" >> output.txt
 echo "cantidad de procesadores del servidor: `nproc --all` " >> output.txt
 echo "_________________________________________________________" >> output.txt
 echo "lista de procesos del servidor:" >> output.txt
-echo "`ps`" >> output.txt
+echo "`ps aux`" >> output.txt
 echo "_________________________________________________________" >> output.txt
 echo "existe el archivo saludo.txt en esta carpeta" >>output.txt
 echo "" >> output.txt
@@ -44,23 +44,27 @@ do
     case $opt in
         "Opcion 1:/var/www/html/so/<a.agueero>/")
             echo "escogiste 1"
+            echo "_____________________________________________________________________________________" >> outuput.txt
             echo "copiando index.html a /var/www/html/so/<a.agueero>/ `cp index.html /var/www/html/so/a.agueero/`" >> output.txt
             echo "copiando script_index.sh a /var/www/html/so/<a.agueero>/ `cp script_index.sh /var/www/html/so/a.agueero/`" >> output.txt
             echo "copiando output.txt a /var/www/html/so/<a.agueero>/ `cp output.txt /var/www/html/so/a.agueero/`"
             ;;
         "Opcion 2:/home/mz/so2021/<a.agueero>/")
             echo "escogiste 2"
+            echo "_____________________________________________________________________________________" >> outuput.txt
             echo "copiando index.html a /home/mz/so2021/<a.agueero>/ `cp index.html /home/mz/so2021/a.agueero/`" >> output.txt
             echo "copiando script_index.sh a /home/mz/so2021/<a.agueero>/ `cp script_index.sh /home/mz/so2021/a.agueero/`" >> output.txt
             echo "copiando output.txt a /home/mz/so2021/<a.agueero>/ `cp output.txt /home/mz/so2021/a.agueero/`" >> output.txt
             ;;
         "Opcion 3:/home/mz/so2021/compartido/")
             echo "escogiste 3"
+            echo "_____________________________________________________________________________________" >> outuput.txt
             echo "copiando index.html a /home/mz/so2021/compartido/ `cp index.html /home/mz/so2021/compartido/`" >> output.txt
             echo "copiando script_index.sh a /home/mz/so2021/compartido/ `cp script_index.sh /home/mz/so2021/compartido/`" >> output.txt
             echo "copiando output.txt a /home/mz/so2021/compartido/ `cp output.txt /home/mz/so2021/compartido/`" >> output.txt
             ;;
         "Ninguno")
+            echo "_____________________________________________________________________________________" >> outuput.txt
             break
             ;;
         *) echo "opcion invalida $REPLY";;
